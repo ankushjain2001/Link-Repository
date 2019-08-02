@@ -1,0 +1,18 @@
+<html>
+<head>
+	
+	
+
+</head>
+
+<?php
+header('Refresh: 10;url=home_show_shared'); //refreshes page after evry 10 seconds
+?>
+
+<?php foreach($links as $link): ?>
+
+<?php echo $link->email; ?> shared link <?php echo $link->link; ?> <a href="allow?link=<?php echo $link->link; ?>">Allow</a> <a href="deny?link=<?php echo $link->link; ?>">Deny</a> <br>
+
+<?php endforeach; ?>
+
+</html>
