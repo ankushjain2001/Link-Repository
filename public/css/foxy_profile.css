@@ -1,0 +1,328 @@
+@charset "utf-8";
+/* CSS Document */
+/*Favourites-----------------------*/
+.fav-grid{
+	 width:155px;
+	 display: inline-block;
+	 height:230px;
+	 margin:8px;
+	 text-align: center;
+	 
+}
+.fav-item {
+    width: 155px;
+    height: 155px;
+    border-radius: 10%;
+    position: relative;
+    cursor: default;
+    perspective: 900px;
+}
+.fav-info{
+    position: absolute;
+    width: 155px;
+    height: 155px;
+    transform-style: preserve-3d;
+}
+.fav-info > div {
+    display: block;
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-position: center center;
+    transition: all 0.4s linear;
+    transform-origin: 50% 0%;
+}
+.fav-info .fav-info-front {
+    box-shadow: inset 0 0 0 5px rgba(0,0,0,0.2);
+	
+}
+.fav-info .fav-info-back {
+    transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    background: #000;
+    opacity: 0;
+}
+ 
+.fav-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin: 0 15px;
+    padding: 50px 0 0 0;
+    height: px;
+    font-family: 'Open Sans', Arial, sans-serif;
+		
+}
+ 
+.fav-info p {
+    color: #fff;
+    padding: 45px 5px;
+    margin: 0 30px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+ 
+.fav-info p a {
+    display: block;
+    color: rgba(0,193,217, 0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+ 
+.fav-info p a:hover {
+    color: rgba(0,200,217, 1.0);
+    text-decoration: none;
+}
+.fav-item:hover .fav-info-front {
+    transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    opacity: 0;
+}
+.fav-item:hover .fav-info-back {
+    transform: rotate3d(1,0,0,0deg);
+    opacity: 1;
+}
+.favdff-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width:130px;
+	height:130px;
+}
+
+.fav-h3 {
+    color: #333;
+	text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+    width: 130px;
+	height:52px;
+	font-weight:bold;
+	overflow: hidden;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+
+/*MY LINK -----------------------*/
+.mylink-grid{
+	 width:170px;
+	 display: inline-block;
+	 height:190px;
+	 margin:19px;
+	 text-align: center;
+}
+.mylink-item {
+    width: 170px;
+    height: 170px;
+    /*border-radius: 2%;*/
+    position: relative;
+    cursor: default;
+    perspective: 900px;
+}
+.mylink-info{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+
+    transform-style: preserve-3d;
+}
+.mylink-info > div {
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    /*border-radius: 2%;*/
+    background-position: center center;
+    transition: all 0.4s linear;
+    transform-origin: 50% 0%;
+}
+.mylink-info .mylink-info-front {
+    box-shadow: inset 0 0 0 5px rgba(0,0,0,0.2);
+	
+}
+.mylink-info .mylink-info-back {
+    transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    background: #000;
+    opacity: 0;
+}
+ 
+.mylink-info p {
+    color: #fff;
+    padding: 45px 10px;
+    margin: -35px 0px;
+    font-size: 14px;
+
+}
+ 
+.mylink-info p a {
+    display: block;
+    color: rgba(0,193,217, 0.7);
+
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+ 
+.mylink-info p a:hover {
+    color: rgba(0,193,217, 1);
+    text-decoration: none;
+}
+.mylink-item:hover .mylink-info-front {
+    transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+    opacity: 0;
+}
+.mylink-item:hover .mylink-info-back {
+    transform: rotate3d(1,0,0,0deg);
+    opacity: 1;
+}
+.mylinkdff-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width:130px;
+	height:130px;
+}
+.mylink-h3 {
+    color: #333;
+	text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+	font-weight:bold;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+    width: 130px;
+	height:52px;
+	overflow: hidden;
+    font-family: 'Open Sans', Arial, sans-serif;
+		
+}
+
+
+/*Favourite categores-------------------------*/
+.fav-cat-grid{
+	 width:170px;
+	 display: inline-block;
+	 height:240px;
+	 margin:8px;
+	 text-align: center;
+	 
+}
+.fav-cat-item {
+    width: 170px;
+    height: 170px;
+    border-radius: 2%;
+    position: relative;
+    cursor: default;
+    perspective: 900px;
+}
+.fav-cat-info{
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    transform-style: preserve-3d;
+}
+.fav-cat-info > div {
+    display: block;
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    border-radius: 2%;
+    background-position: center center;
+    transition: all 0.4s linear;
+    transform-origin: 50% 0%;
+}
+.fav-cat-info .fav-cat-info-front {
+    box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+	
+}
+.fav-cat-info .fav-cat-info-back {
+    transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+    background: #000;
+    opacity: 0;
+}
+ 
+.fav-cat-info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin: 0 15px;
+	font-weight:bold;
+    padding: 50px 0 0 0;
+    height: px;
+    font-family: 'Open Sans', Arial, sans-serif;
+		
+}
+ 
+.fav-cat-info p {
+    color: #fff;
+    padding: 45px 5px;
+    margin: 0 30px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255,255,255,0.5);
+}
+ 
+.fav-cat-info p a {
+    display: block;
+    color: rgba(255,255,255,0.7);
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 1px;
+    padding-top: 4px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+ 
+.favdff-grid {
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width:170px;
+	height:170px;
+}
+
+.fav-cat-h3 {
+    color: #333;
+	font-weight:bold;
+	text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 15px 0 0 0;
+    width: 170px;
+	height:52px;
+	overflow: hidden;
+    font-family: 'Open Sans', Arial, sans-serif;
+		
+}
+
+.fav-cat-content{
+	outline-style:solid;
+	outline-color:#999;
+	outline-width:1px;
+	padding:10px;
+	margin-bottom:35px;
+	display:run-in; 
+	background-color:#f6feff;
+}
