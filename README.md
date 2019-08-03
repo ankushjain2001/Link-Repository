@@ -35,7 +35,7 @@ Following is the list of technologies that I coded with in this project. For the
 
 > **Note**: Following screenshots are from the static design templates.
 
-<p align="center"><img src="readme/screenshots/ss_1.png" title="Home Page" width=80%></p>
+<p align="center"><img src="readme/screenshots/ss_1.png" title="Home Page" width=100%></p>
 <p align="center">Landing Page</p>
 
 
