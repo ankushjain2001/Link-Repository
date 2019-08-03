@@ -9,7 +9,7 @@ This application was developed during the Winter 2014 as an extracurricular proj
 - [Screenshots](#screenshots)
 
 ## Frameworks and Languages
-Following is the list of technologies that I coded with in this project. For the comprehensive list, <a href="/readme/dependencies.md">click here</a>.
+Following is the list of technologies that I coded with in this project. For the comprehensive list, <a href="readme/dependencies.md">click here</a>.
 
 ### Languages
 - HTML5
@@ -33,8 +33,13 @@ Following is the list of technologies that I coded with in this project. For the
 
 ## Screenshots
 
-<img src="/readme/screenshots/ss_1.png" title="">
-<img src="/readme/screenshots/ss_2.png" title="">
-<img src="/readme/screenshots/ss_3.png" title="">
-<img src="/readme/screenshots/ss_4.png" title="">
-<img src="readme/screenshots/ss_5.png" title="">
+> **Note**: Following screenshots are from the static design templates.
+
+<p align="center"><img src="readme/screenshots/ss_1.png" title="Home Page" width=80%></p>
+<p align="center">Landing Page</p>
+
+
+| | |
+|:-------------------------:|:-------------------------:|
+|<img src="readme/screenshots/ss_2.png" title="Home Page after Login" width=100% border="1"> Home Page after Login|<img src="readme/screenshots/ss_3.png" title="News Feed" width=100%> News Feed|
+|<img src="readme/screenshots/ss_4.png" title="Search Results" width=100%> Search Results|<img src="readme/screenshots/ss_5.png" title="Link Moderation Page" width=100%> Link Moderation Page|
