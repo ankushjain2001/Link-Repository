@@ -35,10 +35,10 @@ Following is the list of technologies that I coded with in this project. For the
 
 > **Note**: Following screenshots are from the static design templates.
 
-<p align="center"><img src="readme/screenshots/ss_1.png" title="Home Page" width=100%></p>
-<p align="center">Landing Page</p>
+|<p align="center"><img src="readme/screenshots/ss_1.png" title="Landing Page" width=100%></p> 1. Landing Page|
+|:-------------------------:|
 
 
-|<img src="readme/screenshots/ss_2.png" title="Home Page after Login" width=100% border="1"> Home Page after Login|<img src="readme/screenshots/ss_3.png" title="News Feed" width=100%> News Feed|
+|<img src="readme/screenshots/ss_2.png" title="Home Page after Login" width=100% border="1"> 2. Home Page after Login|<img src="readme/screenshots/ss_3.png" title="News Feed" width=100%> 3. News Feed|
 |:-------------------------:|:-------------------------:|
-|<img src="readme/screenshots/ss_4.png" title="Search Results" width=100%> Search Results|<img src="readme/screenshots/ss_5.png" title="Link Moderation Page" width=100%> Link Moderation Page|
+|<img src="readme/screenshots/ss_4.png" title="Search Results" width=100%> **4. Search Results**|<img src="readme/screenshots/ss_5.png" title="Link Moderation Page" width=100%> **5. Link Moderation Page**|
