@@ -39,7 +39,6 @@ Following is the list of technologies that I coded with in this project. For the
 <p align="center">Landing Page</p>
 
 
-| | |
-|:-------------------------:|:-------------------------:|
 |<img src="readme/screenshots/ss_2.png" title="Home Page after Login" width=100% border="1"> Home Page after Login|<img src="readme/screenshots/ss_3.png" title="News Feed" width=100%> News Feed|
+|:-------------------------:|:-------------------------:|
 |<img src="readme/screenshots/ss_4.png" title="Search Results" width=100%> Search Results|<img src="readme/screenshots/ss_5.png" title="Link Moderation Page" width=100%> Link Moderation Page|
